@@ -27,6 +27,8 @@ Ce pipeline vise à générer une base de données exploitable, normalisée, et 
 
 ```bash
 .
+├── (E1) Document d’analyse stratégique.pdf   # Analyse des choix technologiques et IA
+├── (E2) Compte rendu de projet.pdf           # Compte rendu vulgarisé à destination du client
 ├── Daytona-db-sample.xlsx        # Base de données contenant des montres déjà récupérées manuellement par le client
 ├── README.md                     # Documentation du projet
 ├── Watchfeed.csv                 # Export brut des fiches scrappées
