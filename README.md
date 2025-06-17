@@ -23,3 +23,15 @@ Ce pipeline vise à générer une base de données exploitable, normalisée, et 
 - **Jupyter Notebook** : pour les tests et l’itération rapide
 
 - 
+## 🗂️ Structure du dépôt
+
+```bash
+.
+├── Daytona-db-sample.xlsx        # Base de données contenant des montres déjà récupérées manuellement par le client
+├── README.md                     # Documentation du projet
+├── Watchfeed.csv                 # Export brut des fiches scrappées
+├── all_watches_data.json         # Données horlogères structurées
+├── login.py                      # Script de connexion / authentification générique
+├── login_mac.py                  # Variante du script login pour macOS
+├── re_logic_bis2.py              # Script de scrapping de 4800 montres
+├── remplissage_excel.ipynb       # Notebook afin de répartir les données scrapper depuis le json vers excel
